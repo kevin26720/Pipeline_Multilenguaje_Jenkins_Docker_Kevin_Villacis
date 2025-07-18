@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head (titulo='Acerca de')"></head>
+<body>
+
+<div th:replace="fragments/navbar :: navbar"></div>
+<div class="container-fluid">
+    <h1>ToDoList</h1>
+    <ul>
+        <li>Desarrollada por Kevin Villacis</li>
+        <li>Versión 1.0.0 (en desarrollo)</li>
+        <li>Fecha de release: 07/06/2025</li>
+    </ul>
+</div>
+<div th:replace="fragments::javascript"/>
+</body>
+</html>
